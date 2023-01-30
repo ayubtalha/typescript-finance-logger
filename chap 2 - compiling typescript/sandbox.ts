@@ -1,9 +1,9 @@
 const character = 'mario';
 
-console.log(character);
+console.log('character:', character);
 
 const inputs = document.querySelectorAll('input');
 
-inputs.forEach((input) => {
-  console.log(input);
-});
+console.log('inputs:', inputs);
+
+inputs.forEach((input) => console.log('input:::', input));
